@@ -1,0 +1,421 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#083a98">
+  <meta name="description" content="Menos tempo no celular e mais criatividade! Tenha +200 Cards de Massinha prontos para imprimir, com 3 bônus por R$ 14,90.">
+  <meta property="og:title" content="Cards de Massinha | +200 brincadeiras para imprimir">
+  <meta property="og:description" content="Troque parte do tempo de tela por momentos de criatividade com brincadeiras de massinha prontas para imprimir.">
+  <title>Cards de Massinha | Mais criatividade, menos telas</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;500;600;700;800;900;1000&display=swap" rel="stylesheet">
+  <style>
+    :root { --navy:#05296c; --blue:#083f9e; --blue2:#0b4fc3; --yellow:#ffe653; --green:#19ad53; --greenDark:#0d8b3b; --mint:#def7e7; --ink:#0b347b; --text:#344762; --muted:#5b7290; --line:#e3ecf6; --white:#fff; --shadow:0 12px 30px rgba(12,52,115,.08); }
+    *,*::before,*::after{box-sizing:border-box}
+    html{scroll-behavior:smooth;scroll-padding-top:22px}
+    body{margin:0;font-family:Nunito,system-ui,sans-serif;color:var(--text);background:#fff;-webkit-font-smoothing:antialiased}
+    img{max-width:100%;display:block}
+    a{text-decoration:none;color:inherit}
+    button{font:inherit}
+    ::selection{background:#ffdf54;color:#03276d}
+    :focus-visible{outline:3px solid #ffcb32;outline-offset:4px}
+    .wrap{width:min(1100px,calc(100% - 44px));margin:0 auto}
+    .wrap-narrow{width:min(820px,calc(100% - 44px));margin:0 auto}
+    .section{padding:76px 0}
+    .section-mint{background:var(--mint)}
+    .center{text-align:center}
+    h1,h2,h3,p{margin-top:0}
+    h1,h2,h3{color:var(--ink);letter-spacing:-.025em}
+    h2{font-size:clamp(1.75rem,3.5vw,2.7rem);font-weight:1000;line-height:1.14;margin-bottom:15px}
+    h3{font-size:1.1rem;line-height:1.2;font-weight:1000}
+    .intro{max-width:690px;margin:0 auto 32px;font-size:1.05rem;line-height:1.65;color:#46607b}
+    .mini-label{display:inline-flex;align-items:center;gap:7px;padding:7px 15px;border-radius:99px;background:#e8fff0;color:#107f43;font-size:.74rem;font-weight:1000;letter-spacing:.04em;text-transform:uppercase;margin-bottom:16px}
+    .cta{display:inline-flex;align-items:center;justify-content:center;text-align:center;gap:12px;min-height:58px;padding:16px 27px;border:0;border-radius:50px;background:linear-gradient(180deg,#27cb61,#12a94d);color:#fff;font-size:.91rem;font-weight:1000;line-height:1.2;letter-spacing:.01em;box-shadow:0 8px 0 rgba(0,111,51,.12),0 14px 24px rgba(12,137,54,.2);transition:transform .18s ease,box-shadow .18s ease;cursor:pointer}
+    .cta:hover{transform:translateY(-3px);box-shadow:0 10px 0 rgba(0,111,51,.1),0 18px 26px rgba(12,137,54,.27)}
+    .cta:active{transform:translateY(1px);box-shadow:0 3px 0 rgba(0,111,51,.12)}
+    .cta svg{width:18px;height:18px;flex:none}
+    .secure{font-size:.78rem;line-height:1.6;color:var(--muted);font-weight:800}
+    .secure-white{color:#e4eaff}
+    .pill-note{display:inline-flex;align-items:center;gap:8px;margin-bottom:16px;background:rgba(255,255,255,.12);border:1px solid rgba(255,255,255,.25);border-radius:50px;padding:8px 15px;color:#fff;font-size:.74rem;font-weight:900}
+    .topbar{background:#032d83;color:#fff;text-align:center;padding:9px 12px;font-size:.74rem;font-weight:900;letter-spacing:.015em}
+    .topbar span{background:#ffe25d;color:#10316f;padding:2px 8px;border-radius:4px}
+    .hero{background:linear-gradient(118deg,#0751c8 0%,#0640aa 50%,#08368d 100%);overflow:hidden;position:relative;color:#fff;padding:66px 0 75px}
+    .hero:before{content:"";position:absolute;width:670px;height:670px;border-radius:50%;right:-420px;top:-260px;border:110px solid rgba(255,255,255,.035);pointer-events:none}
+    .hero:after{content:"";position:absolute;width:520px;height:520px;border-radius:50%;left:-390px;bottom:-380px;border:90px solid rgba(255,255,255,.045);pointer-events:none}
+    .hero-grid{display:grid;grid-template-columns:1.04fr .96fr;align-items:center;gap:36px;position:relative;z-index:1}
+    .hero h1{color:#fff;font-size:clamp(2.4rem,5vw,4.3rem);line-height:1.035;font-weight:1000;letter-spacing:-.037em;margin:0 0 19px}
+    .hero h1 mark{color:var(--yellow);background:transparent}
+    .hero-lead{font-size:1.11rem;max-width:530px;color:#edf4ff;line-height:1.54;font-weight:700;margin-bottom:23px}
+    .hero .cta{min-width:310px}
+    .hero-trust{font-size:.81rem;color:#f2f6ff;font-weight:800;margin-top:18px}
+    .hero-trust span{margin:0 6px;opacity:.65}
+    .hero-visual{position:relative;min-height:430px;display:grid;place-items:center;isolation:isolate}
+    .hero-halo{width:360px;height:360px;position:absolute;border-radius:50%;background:rgba(255,255,255,.11);filter:blur(2px);z-index:-1}
+    .paper{background:#fff;border-radius:10px;border:7px solid #f7faff;box-shadow:0 14px 26px rgba(0,18,72,.22);overflow:hidden;text-align:center}
+    .paper::before{content:"";display:block;height:11px;background:linear-gradient(90deg,#ffb536 0 25%,#ff79b4 25% 50%,#64c8ef 50% 75%,#7bd88b 75%);opacity:.9}
+    .pack-main{width:258px;min-height:324px;position:relative;z-index:3;transform:rotate(-4deg);padding:0 15px 20px;background:#fdfcff}
+    .pack-title{margin:13px 0 5px;font-size:2.35rem;line-height:.95;font-weight:1000;letter-spacing:-.06em;color:#ffad19;text-shadow:2px 2px 0 #e45c92}
+    .pack-title strong{display:block;color:#0946ad;font-size:1.95rem;text-shadow:none;letter-spacing:-.045em}
+    .pack-sub{color:#184898;font-size:.88rem;font-weight:1000}
+    .pack-stickers{display:grid;grid-template-columns:repeat(3,1fr);gap:6px;margin:16px auto 12px}
+    .sticker{display:grid;place-items:center;aspect-ratio:1/1;background:#fdf0c5;border-radius:15px;font-size:2.1rem;box-shadow:inset 0 -4px 0 rgba(0,0,0,.035)}
+    .sticker:nth-child(2){background:#e4f8e1}.sticker:nth-child(3){background:#fde2f0}.sticker:nth-child(4){background:#e2f0ff}.sticker:nth-child(5){background:#fff0df}.sticker:nth-child(6){background:#ede7ff}
+    .pack-footer{color:#0b4ba9;font-size:.68rem;font-weight:1000;letter-spacing:.05em}
+    .pack-back{position:absolute;width:202px;height:270px;padding:12px;z-index:0}
+    .pack-back.left{left:0;top:88px;transform:rotate(-17deg)}
+    .pack-back.right{right:0;top:49px;transform:rotate(14deg)}
+    .pack-back .exercise-preview{padding:8px;background:#fff;border:2px dashed #b3cffd;border-radius:8px;margin-top:10px}
+    .pack-back h4{font-size:.9rem;color:#164f9d;margin:6px 0}
+    .pack-back .figure{font-size:3.7rem;margin:15px 0}
+    .pack-stamp{position:absolute;right:5px;bottom:37px;z-index:5;transform:rotate(11deg);background:#fff6c8;color:#0d49a0;border:4px solid #f9bc35;border-radius:50%;width:91px;height:91px;display:flex;align-items:center;justify-content:center;text-align:center;line-height:1.04;font-size:.81rem;font-weight:1000;box-shadow:0 8px 18px rgba(0,20,74,.18)}
+    .clay-dots{position:absolute;left:10px;bottom:13px;display:flex;gap:8px;transform:rotate(-9deg);z-index:5}
+    .clay-dots b{width:34px;height:34px;border-radius:42% 58% 45% 55%;display:block;box-shadow:inset -6px -7px 0 rgba(0,0,0,.1),0 5px 10px rgba(0,0,0,.14)}
+    .clay-dots b:nth-child(1){background:#ffcf26}.clay-dots b:nth-child(2){background:#f15d91}.clay-dots b:nth-child(3){background:#53ce93}
+    .benefits{background:#fff}
+    .benefits-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:15px;margin-top:37px}
+    .benefit{border-radius:14px;background:#fff;box-shadow:0 5px 24px rgba(30,70,126,.075);padding:22px 23px;min-height:155px}
+    .benefit .symbol{display:grid;place-items:center;width:42px;height:42px;border-radius:13px;background:#fff1f6;font-size:1.42rem;margin-bottom:13px}
+    .benefit:nth-child(2) .symbol,.benefit:nth-child(5) .symbol{background:#edf5ff}
+    .benefit:nth-child(3) .symbol,.benefit:nth-child(6) .symbol{background:#fff6dd}
+    .benefit h3{margin-bottom:7px;font-size:1.03rem}
+    .benefit p{font-size:.92rem;line-height:1.49;margin:0}
+    .pain .intro{max-width:760px}
+    .pain-quote{font-size:1.09rem;font-weight:900;color:#0a468b;margin:0 auto 28px;max-width:710px;line-height:1.5}
+    .activities-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:11px;max-width:820px;margin:0 auto 31px}
+    .activity{display:flex;gap:14px;align-items:flex-start;background:rgba(255,255,255,.94);padding:16px 17px;border-radius:12px;min-height:86px}
+    .activity .icon-tile{display:grid;place-items:center;flex:none;border-radius:8px;width:35px;height:35px;background:#e8f4ff;font-size:1.25rem}
+    .activity:nth-child(even) .icon-tile{background:#fff0df}
+    .activity h3{font-size:.99rem;margin:0 0 5px}
+    .activity p{margin:0;font-size:.88rem;line-height:1.42}
+    .gallery{padding-top:24px}
+    .gallery h2{font-size:clamp(1.65rem,3vw,2.35rem)}
+    .gallery-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:12px;max-width:870px;margin:32px auto 14px}
+    .photo{border:5px solid #fff;border-radius:16px;overflow:hidden;box-shadow:0 4px 0 #95bef4;position:relative;background:#dce6e8;aspect-ratio:1.07}
+    .photo img{width:100%;height:100%;object-fit:cover;transition:transform .4s ease}
+    .photo:hover img{transform:scale(1.035)}
+    .photo:after{content:attr(data-label);position:absolute;left:10px;bottom:10px;padding:5px 9px;border-radius:20px;color:#16316c;background:rgba(255,255,255,.94);font-size:.72rem;font-weight:1000}
+    .gallery-foot{font-size:.8rem;font-weight:900;color:#34608c}
+    .story-grid{display:grid;grid-template-columns:1fr 1fr;gap:62px;align-items:center}
+    .story-image{position:relative;min-height:400px}
+    .story-image img{width:100%;height:400px;object-fit:cover;border-radius:21px}
+    .story-sticky{position:absolute;bottom:-21px;right:-17px;background:var(--yellow);color:#123877;font-size:1.05rem;font-weight:1000;line-height:1.18;padding:18px 21px;border-radius:12px;transform:rotate(3deg);box-shadow:0 12px 24px rgba(0,33,91,.13)}
+    .story h2{text-align:left}
+    .story p{font-size:1.03rem;line-height:1.65}
+    .story-line{display:flex;gap:11px;align-items:center;border-bottom:1px solid var(--line);padding:13px 0;font-weight:900;color:#16417c}
+    .story-line span{font-size:1.35rem}
+    .testimonials{background:#fff}
+    .testimonials-inner{width:min(960px,calc(100% - 44px));margin:auto}
+    .testimonial-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:14px;margin:32px 0 15px}
+    .testimonial-placeholder{background:#fafcff;border:1px dashed #a9c0dc;border-radius:14px;padding:22px 18px;min-height:189px;display:flex;flex-direction:column;justify-content:center;align-items:center;text-align:center}
+    .testimonial-placeholder svg{width:30px;height:30px;color:#3e78bc;margin-bottom:12px}
+    .testimonial-placeholder b{font-size:.96rem;color:var(--ink)}
+    .testimonial-placeholder p{font-size:.83rem;line-height:1.5;margin:7px 0 0}
+    .offer-products{background:var(--mint)}
+    .product-stack{max-width:625px;margin:25px auto 0}
+    .main-product{border:2px solid #3b8cda;border-radius:16px;background:#fff;text-align:center;padding:30px 30px 24px;box-shadow:0 10px 25px rgba(0,38,100,.07)}
+    .mini-product{width:165px;height:205px;margin:auto;transform:rotate(-4deg);display:grid;place-items:center}
+    .mini-product .pack-main{transform:none;width:165px;min-height:205px;border-width:5px;padding:0 9px 11px}
+    .mini-product .pack-title{font-size:1.5rem;margin-top:7px}
+    .mini-product .pack-title strong{font-size:1.3rem}
+    .mini-product .pack-sub{font-size:.59rem}
+    .mini-product .pack-stickers{margin:8px 0 5px;gap:3px}
+    .mini-product .sticker{font-size:1.3rem;border-radius:8px}
+    .mini-product .pack-footer{font-size:.45rem}
+    .product-tag{display:inline-block;background:#0b52b8;color:#fff;border-radius:30px;padding:7px 14px;text-transform:uppercase;font-size:.72rem;font-weight:1000;margin:12px 0 10px}
+    .main-product h3{font-size:1.35rem;margin:0 0 10px}
+    .main-product p{max-width:440px;margin:0 auto 11px;line-height:1.52;font-size:.97rem}
+    .strike{font-size:.86rem;color:#8693a5;text-decoration:line-through;font-weight:1000}
+    .bonuses{border-radius:16px;background:#f1fff5;padding:18px 19px 22px;margin-top:13px}
+    .bonus{display:grid;grid-template-columns:82px 1fr;gap:16px;align-items:center;background:#fff;padding:14px;margin:10px 0;border-radius:12px}
+    .bonus-cover{aspect-ratio:.78;display:flex;flex-direction:column;align-items:center;justify-content:center;text-align:center;padding:8px;border-radius:7px;color:#fff;background:linear-gradient(135deg,#056bbf,#45b9f2);box-shadow:0 6px 14px rgba(0,42,100,.12)}
+    .bonus:nth-of-type(2) .bonus-cover{background:linear-gradient(135deg,#ffb332,#eb6e71)}
+    .bonus:nth-of-type(3) .bonus-cover{background:linear-gradient(135deg,#894fca,#da7ace)}
+    .bonus-cover span{font-size:2.25rem}
+    .bonus-cover b{font-size:.59rem;line-height:1.15}
+    .bonus h3{font-size:1.01rem;margin:0 0 5px}
+    .bonus p{font-size:.86rem;line-height:1.45;margin:0 0 6px}
+    .free{color:#0ba347;font-size:.78rem;font-weight:1000}
+    .product-summary{font-size:.96rem;font-weight:900;color:var(--ink);margin:23px auto 15px;max-width:530px;line-height:1.5;text-align:center}
+    .products-foot{text-align:center}
+    .guarantee{padding:60px 0}
+    .guarantee-card{max-width:700px;margin:0 auto;text-align:center;padding:37px 45px 36px;border-radius:18px;background:#fff;box-shadow:var(--shadow)}
+    .shield{width:62px;height:67px;margin:0 auto 16px;display:grid;place-items:center}
+    .shield svg{width:62px;height:67px}
+    .guarantee h2{font-size:2.05rem}
+    .guarantee p{max-width:560px;margin:10px auto;line-height:1.6}
+    .pricing{text-align:center;padding:70px 0 88px;background:var(--mint)}
+    .pricing-intro{max-width:725px;margin:0 auto 27px}
+    .pricing-intro h2{font-size:clamp(1.85rem,3.5vw,2.7rem);margin-bottom:14px}
+    .pricing-intro p{line-height:1.58;font-size:1rem}
+    .pay-box{max-width:510px;margin:0 auto 12px;border:2px solid #084cb3;border-radius:17px;background:#fff;padding:0 28px 28px;box-shadow:0 13px 35px rgba(11,55,110,.12);overflow:hidden}
+    .pay-box .offer-ribbon{margin:0 -28px 18px;padding:11px;background:#083fa2;color:#fff;font-size:.79rem;font-weight:1000;letter-spacing:.05em}
+    .pricing .old-price{font-size:1.15rem;text-decoration:line-through;color:#8794aa;font-weight:900;margin-bottom:0}
+    .pricing .only{font-weight:900;color:#5270a2;font-size:1rem;margin:0}
+    .new-price{font-size:clamp(4rem,10vw,5.5rem);line-height:1.06;font-weight:1000;color:#0546ad;letter-spacing:-.07em;margin:5px 0}
+    .discount{display:inline-block;color:#1b7848;background:#e2f6e8;border-radius:40px;font-size:.86rem;font-weight:1000;padding:6px 15px;margin:0 0 6px}
+    .save{font-size:.88rem;font-weight:900;color:#54708f;margin-bottom:12px}
+    .payment-line{font-size:.78rem;color:#6a7b92;margin-bottom:18px}
+    .value-box{background:#fff7d9;color:#72541b;border-radius:9px;padding:12px;font-size:.83rem;font-weight:1000;margin-bottom:19px}
+    .checklist{text-align:left;list-style:none;padding:0;margin:0 0 24px}
+    .checklist li{display:flex;align-items:flex-start;gap:9px;font-size:.92rem;line-height:1.39;font-weight:800;margin:9px 0;color:#254b7b}
+    .checklist li:before{content:"✓";width:18px;height:18px;border-radius:50%;background:#e3f8e9;color:#16964b;font-weight:1000;display:grid;place-items:center;flex:none;font-size:.75rem;margin-top:1px}
+    .checklist li.bonus-item:before{content:"★";background:#fff3d1;color:#dc920a}
+    .pay-box .cta{width:100%;padding:16px 14px}
+    .pay-security{margin-top:14px;font-size:.78rem;color:#537095;font-weight:800;line-height:1.65}
+    .payment-icons{font-size:.76rem;letter-spacing:.11em;font-weight:1000;color:#526e9a;margin-top:11px}
+    .checkout-message{display:none;margin:13px auto 0;padding:11px 13px;background:#fff6d8;color:#6a4a00;border-radius:8px;font-size:.8rem;max-width:450px}
+    .checkout-message.show{display:block}
+    .faq{padding:73px 0 82px}
+    .faq h2{font-size:2.3rem;margin-bottom:31px}
+    .faq-list{max-width:750px;margin:auto}
+    details{background:#fff;border-bottom:1px solid #e6edf6}
+    details:first-child{border-top:1px solid #e6edf6}
+    summary{list-style:none;cursor:pointer;padding:18px 6px;color:#0c3a88;font-size:1.02rem;font-weight:1000;display:flex;align-items:center;justify-content:space-between;gap:16px}
+    summary::-webkit-details-marker{display:none}
+    summary:after{content:"+";font-size:1.5rem;font-weight:700;color:#1953ab;line-height:1;transition:transform .2s ease}
+    details[open] summary:after{content:"−"}
+    .faq-answer{padding:0 36px 18px 6px;font-size:.98rem;line-height:1.6;color:#4d627c}
+    .faq-answer p{margin-bottom:0}
+    footer{background:#f9fcff;text-align:center;padding:29px 16px 34px}
+    .brand-footer{font-size:1.35rem;color:#0c45a2;font-weight:1000;margin-bottom:5px}
+    footer p{margin:5px 0;color:#71829a;font-size:.78rem}
+    .mobile-bar{display:none}
+    @media(max-width:900px){.hero-grid{gap:14px}.hero h1{font-size:clamp(2.25rem,5.2vw,3.7rem)}.hero-visual{transform:scale(.9)}.story-grid{gap:35px}}
+    @media(max-width:740px){.section{padding:58px 0}.hero{padding:42px 0 60px}.hero-grid{grid-template-columns:1fr;gap:14px;text-align:center}.hero-copy{order:1}.hero-visual{order:2;min-height:380px;transform:none}.hero-lead{margin-left:auto;margin-right:auto}.hero h1{font-size:clamp(2.65rem,9vw,4.2rem)}.hero .cta{min-width:0;width:min(100%,380px)}.benefits-grid{grid-template-columns:repeat(2,1fr)}.gallery-grid{grid-template-columns:repeat(2,1fr)}.story-grid{grid-template-columns:1fr}.story-image{min-height:0;order:2}.story-image img{height:350px}.story-copy{order:1}.story h2{text-align:center}.story-copy>p{text-align:center}.testimonial-grid{grid-template-columns:1fr 1fr}.testimonial-placeholder:last-child{grid-column:1/-1}.mini-label{font-size:.7rem}.guarantee{padding:45px 0}.pricing{padding:60px 0 75px}}
+    @media(max-width:520px){.wrap,.wrap-narrow,.testimonials-inner{width:calc(100% - 32px)}.section{padding:50px 0}.topbar{font-size:.65rem}.hero{padding:34px 0 52px}.hero h1{font-size:clamp(2.28rem,10vw,3.05rem);line-height:1.06}.hero-lead{font-size:.98rem}.pill-note{font-size:.65rem}.hero-visual{min-height:340px;margin:6px auto 0;width:100%;max-width:360px}.pack-main{width:202px;min-height:268px;padding:0 11px 12px}.pack-title{font-size:1.9rem}.pack-title strong{font-size:1.55rem}.pack-sub{font-size:.7rem}.pack-stickers{gap:4px;margin:12px auto 8px}.sticker{font-size:1.65rem;border-radius:10px}.pack-back{width:158px;height:214px}.pack-back.left{left:-2px;top:68px}.pack-back.right{right:-2px;top:42px}.pack-back h4{font-size:.7rem}.pack-back .figure{font-size:2.5rem}.pack-stamp{width:73px;height:73px;right:1px;bottom:30px;font-size:.68rem}.hero-halo{height:300px;width:300px}.benefits-grid{gap:10px}.benefit{padding:16px 13px;min-height:175px}.benefit h3{font-size:.92rem}.benefit p{font-size:.79rem}.benefit .symbol{width:36px;height:36px;font-size:1.2rem;margin-bottom:10px}h2{font-size:1.72rem}.intro{font-size:.94rem}.activities-grid{grid-template-columns:1fr;gap:9px}.activity{min-height:0}.gallery{padding-top:0}.gallery-grid{gap:9px}.photo{border-width:3px;border-radius:11px}.photo:after{font-size:.6rem;left:6px;bottom:6px;padding:5px 6px}.story-image img{height:280px}.story-sticky{right:2px;font-size:.85rem;padding:13px}.testimonial-grid{grid-template-columns:1fr}.testimonial-placeholder:last-child{grid-column:auto}.testimonial-placeholder{min-height:118px;padding:18px}.main-product{padding:24px 15px}.bonuses{padding:13px 10px 17px}.bonus{grid-template-columns:73px 1fr;gap:11px;padding:11px}.bonus h3{font-size:.9rem}.bonus p{font-size:.78rem}.guarantee-card{padding:30px 19px}.guarantee h2{font-size:1.65rem}.guarantee p{font-size:.92rem}.pay-box{padding:0 18px 22px}.pay-box .offer-ribbon{margin:0 -18px 18px}.new-price{font-size:4.25rem}.checklist li{font-size:.84rem}.faq h2{font-size:1.85rem}.faq summary{font-size:.92rem}.faq-answer{font-size:.88rem}.mobile-bar{display:block;position:fixed;bottom:0;left:0;right:0;z-index:40;background:#fff;box-shadow:0 -4px 25px rgba(11,43,100,.12);padding:9px 12px max(9px,env(safe-area-inset-bottom))}.mobile-bar a{display:flex;align-items:center;justify-content:center;gap:10px;background:#18ad53;color:white;border-radius:40px;min-height:47px;font-weight:1000;font-size:.87rem}.mobile-bar b{font-size:1.02rem}.mobile-bar + .spacer{height:65px}footer{padding-bottom:96px}}
+    @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*,*::before,*::after{transition-duration:.01ms!important;animation-duration:.01ms!important}}
+  </style>
+</head>
+<body>
+  <div class="topbar">🔥 <span>68% DE DESCONTO</span> — OFERTA ESPECIAL POR TEMPO LIMITADO</div>
+  <header class="hero" id="inicio">
+    <div class="wrap hero-grid">
+      <div class="hero-copy">
+        <div class="pill-note">✨ PARA PAIS E MÃES QUE QUEREM VER OS FILHOS BRINCANDO MAIS E USANDO MENOS TELAS</div>
+        <h1><mark>MENOS TEMPO NO CELULAR.</mark> MAIS CRIATIVIDADE COM +200 CARDS DE MASSINHA!</h1>
+        <p class="hero-lead">Transforme uma simples massinha em dezenas de momentos de diversão! Tenha brincadeiras prontas para imprimir que despertam a imaginação, estimulam a criatividade e oferecem uma alternativa divertida às telas.</p>
+        <a class="cta" href="#preco">QUERO OS CARDS DE MASSINHA AGORA <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14m-6-6 6 6-6 6"/></svg></a>
+        <div class="hero-trust">⚡ Acesso imediato <span>•</span> 🛡️ Garantia de 7 dias</div>
+      </div>
+      <div class="hero-visual" role="img" aria-label="Prévia ilustrativa do kit de Cards de Massinha e atividades com animais, flores, formas e cores">
+        <div class="hero-halo"></div>
+        <div class="paper pack-back left"><h4>CRIE COM MASSINHA</h4><div class="exercise-preview"><div class="figure">🦋</div><strong style="color:#2361a7">Borboleta colorida</strong></div></div>
+        <div class="paper pack-back right"><h4>BRINQUE E APRENDA</h4><div class="exercise-preview"><div class="figure">🌻</div><strong style="color:#2361a7">Flores e formas</strong></div></div>
+        <div class="paper pack-main">
+          <div class="pack-title">+200<strong>CARDS DE<br>MASSINHA</strong></div>
+          <div class="pack-sub">BRINCADEIRAS PARA IMPRIMIR</div>
+          <div class="pack-stickers"><div class="sticker">🦁</div><div class="sticker">🌼</div><div class="sticker">🐢</div><div class="sticker">⭐</div><div class="sticker">🍎</div><div class="sticker">🌈</div></div>
+          <div class="pack-footer">CRIE • EXPLORE • APRENDA</div>
+        </div>
+        <div class="pack-stamp">+200<br>IDEIAS<br>CRIATIVAS</div>
+        <div class="clay-dots"><b></b><b></b><b></b></div>
+      </div>
+    </div>
+  </header>
+  <main>
+    <section class="section benefits" aria-labelledby="benefit-title">
+      <div class="wrap">
+        <div class="center">
+          <div class="mini-label">🎨 CRIATIVIDADE E IMAGINAÇÃO &nbsp; 🧩 APRENDIZADO BRINCANDO &nbsp; 📵 DIVERSÃO LONGE DAS TELAS</div>
+          <h2 id="benefit-title">O QUE SEU FILHO PODE EXPLORAR<br>COM OS CARDS DE MASSINHA</h2>
+          <p class="intro">Você não precisa inventar uma brincadeira diferente todos os dias. Com os Cards de Massinha, seu filho encontra novos desafios para criar, explorar e aprender enquanto se diverte.</p>
+        </div>
+        <div class="benefits-grid">
+          <article class="benefit"><div class="symbol" aria-hidden="true">🎨</div><h3>Criatividade e Imaginação</h3><p>Brincadeiras para inventar personagens, construir figuras e dar vida às próprias ideias.</p></article>
+          <article class="benefit"><div class="symbol" aria-hidden="true">🖐️</div><h3>Coordenação Motora Fina</h3><p>Amassar, enrolar, apertar e modelar para exercitar as pequenas mãos.</p></article>
+          <article class="benefit"><div class="symbol" aria-hidden="true">🧩</div><h3>Atenção e Concentração</h3><p>Desafios para observar modelos, acompanhar formas e manter o interesse na brincadeira.</p></article>
+          <article class="benefit"><div class="symbol" aria-hidden="true">💡</div><h3>Raciocínio Lógico</h3><p>Explore sequências, padrões, tamanhos e associações de forma leve e divertida.</p></article>
+          <article class="benefit"><div class="symbol" aria-hidden="true">🔤</div><h3>Letras, Números e Formas</h3><p>Primeiros conceitos de aprendizagem de um jeito lúdico, com cores e massinha.</p></article>
+          <article class="benefit"><div class="symbol" aria-hidden="true">❤️</div><h3>Momentos em Família</h3><p>Troque parte do tempo de tela por descobertas e momentos especiais juntos.</p></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-mint pain" aria-labelledby="pain-title">
+      <div class="wrap-narrow center">
+        <h2 id="pain-title">SEU FILHO SÓ QUER SABER DE CELULAR?</h2>
+        <p class="intro">Você tenta oferecer brinquedos, inventa alguma atividade, mas poucos minutos depois ele já está pedindo o celular novamente?</p>
+        <p class="pain-quote">Muitas vezes, o difícil não é desligar a tela. É encontrar uma brincadeira que realmente desperte a curiosidade da criança.</p>
+        <p class="intro">Com os Cards de Massinha, você tem diferentes atividades prontas. Basta escolher um card, separar a massinha e começar a diversão!</p>
+        <div class="activities-grid">
+          <article class="activity"><div class="icon-tile">🐶</div><div style="text-align:left"><h3>Animais de Massinha</h3><p>Crie bichinhos de diferentes formas e cores e explore o mundo animal.</p></div></article>
+          <article class="activity"><div class="icon-tile">🔤</div><div style="text-align:left"><h3>Letras e Números Divertidos</h3><p>Aprenda com desafios de modelagem de letras, números e formas.</p></div></article>
+          <article class="activity"><div class="icon-tile">🎨</div><div style="text-align:left"><h3>Cores e Formas</h3><p>Combine cores, reproduza figuras e descubra novas possibilidades.</p></div></article>
+          <article class="activity"><div class="icon-tile">🧠</div><div style="text-align:left"><h3>Desafios de Criatividade</h3><p>Cards para imaginar, inventar e criar suas próprias versões.</p></div></article>
+          <article class="activity"><div class="icon-tile">💡</div><div style="text-align:left"><h3>Sequências e Padrões</h3><p>Reproduza sequências, compare tamanhos e explore o raciocínio.</p></div></article>
+          <article class="activity"><div class="icon-tile">🖐️</div><div style="text-align:left"><h3>Pequenas Mãos em Ação</h3><p>Bolinhas, rolinhos e traçados para exercitar a coordenação.</p></div></article>
+          <article class="activity"><div class="icon-tile">🌈</div><div style="text-align:left"><h3>Criações e Aventuras</h3><p>Personagens, alimentos e cenários em um mundo de possibilidades.</p></div></article>
+        </div>
+        <a href="#preco" class="cta">QUERO +200 BRINCADEIRAS PARA MEU FILHO</a>
+        <p class="secure" style="margin:14px 0 0">Tudo em PDF, pronto para imprimir e usar com massinha.</p>
+      </div>
+    </section>
+
+    <section class="section section-mint gallery" aria-labelledby="gallery-title">
+      <div class="wrap center">
+        <div class="mini-label">💗 MAIS CRIATIVIDADE NO DIA A DIA</div>
+        <h2 id="gallery-title">DESCUBRA AS BRINCADEIRAS QUE SEU FILHO VAI ENCONTRAR</h2>
+        <p class="intro">Uma brincadeira simples que pode render horas de imaginação. Crie, explore, misture cores e descubra algo novo a cada atividade.</p>
+        <div class="gallery-grid">
+          <div class="photo" data-label="Criar e descobrir"><img src="https://images.pexels.com/photos/8422167/pexels-photo-8422167.jpeg?auto=compress&cs=tinysrgb&w=650" alt="Crianças brincando com massinha colorida" loading="lazy"></div>
+          <div class="photo" data-label="Imaginação em ação"><img src="https://images.pexels.com/photos/12788353/pexels-photo-12788353.jpeg?auto=compress&cs=tinysrgb&w=650" alt="Criança explorando massinha colorida" loading="lazy"></div>
+          <div class="photo" data-label="Momentos juntos"><img src="https://images.pexels.com/photos/8422149/pexels-photo-8422149.jpeg?auto=compress&cs=tinysrgb&w=650" alt="Crianças modelando com massinha em grupo" loading="lazy"></div>
+          <div class="photo" data-label="Aprender brincando"><img src="https://images.pexels.com/photos/8422184/pexels-photo-8422184.jpeg?auto=compress&cs=tinysrgb&w=650" alt="Duas crianças criando figuras com massinha" loading="lazy"></div>
+          <div class="photo" data-label="Novas formas"><img src="https://images.pexels.com/photos/4941807/pexels-photo-4941807.jpeg?auto=compress&cs=tinysrgb&w=650" alt="Criança se divertindo com uma atividade de massinha" loading="lazy"></div>
+          <div class="photo" data-label="Menos telas, mais arte"><img src="https://images.pexels.com/photos/4145037/pexels-photo-4145037.jpeg?auto=compress&cs=tinysrgb&w=650" alt="Criança fazendo atividade criativa com massinha em casa" loading="lazy"></div>
+        </div>
+        <p class="gallery-foot">Imagens ilustrativas de momentos de brincadeira com massinha.</p>
+      </div>
+    </section>
+
+    <section class="section story" aria-labelledby="story-title">
+      <div class="wrap story-grid">
+        <div class="story-image">
+          <img src="https://images.pexels.com/photos/8422149/pexels-photo-8422149.jpeg?auto=compress&cs=tinysrgb&w=1100" alt="Crianças compartilhando uma atividade criativa com massinha" loading="lazy">
+          <div class="story-sticky">A INFÂNCIA ACONTECE<br>FORA DAS TELAS. 💛</div>
+        </div>
+        <div class="story-copy">
+          <h2 id="story-title">MENOS TELAS,<br>MAIS INFÂNCIA DE VERDADE.</h2>
+          <p>A infância é feita de descobertas, imaginação e pequenas aventuras. E nem toda diversão precisa acontecer diante de uma tela.</p>
+          <p>Imagine seu filho criando animais, inventando personagens, misturando cores e mostrando orgulhoso aquilo que acabou de fazer.</p>
+          <p><strong>Porque as melhores lembranças da infância não precisam de uma tela.</strong></p>
+          <div class="story-line"><span>🎨</span> Criatividade todos os dias</div>
+          <div class="story-line"><span>👨‍👩‍👧</span> Momentos especiais em família</div>
+          <div class="story-line"><span>🏡</span> Brincadeiras simples dentro de casa</div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section testimonials" aria-labelledby="testimonials-title">
+      <div class="testimonials-inner center">
+        <h2 id="testimonials-title">FAMÍLIAS ESTÃO DESCOBRINDO NOVAS FORMAS DE BRINCAR</h2>
+        <p class="intro">Veja como atividades simples com massinha podem fazer parte de uma rotina com mais criatividade, interação e momentos longe das telas.</p>
+        <div class="testimonial-grid">
+          <div class="testimonial-placeholder"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" aria-hidden="true"><path d="M4 4h16v12H8l-4 4z"/><path d="M8 9h8M8 12h6"/></svg><b>Depoimento de uma família</b><p>Espaço reservado para um relato real de quem utilizou os Cards de Massinha.</p></div>
+          <div class="testimonial-placeholder"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" aria-hidden="true"><rect x="3" y="3" width="18" height="18" rx="3"/><circle cx="9" cy="9" r="2"/><path d="m4 18 6-6 4 4 3-3 4 4"/></svg><b>Foto de atividade real</b><p>Espaço para uma foto autorizada enviada por pais ou responsáveis.</p></div>
+          <div class="testimonial-placeholder"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" aria-hidden="true"><path d="m12 21-1.7-1.5C4.6 14.4 2 12 2 8.8a5.3 5.3 0 0 1 9.5-3.2L12 6l.5-.4A5.3 5.3 0 0 1 22 8.8c0 3.2-2.6 5.6-8.3 10.7z"/></svg><b>Experiência de quem comprou</b><p>Inclua aqui uma avaliação verdadeira, sem inventar números ou resultados.</p></div>
+        </div>
+        <p class="gallery-foot">Os depoimentos serão exibidos após a inclusão de avaliações reais e autorizadas.</p>
+      </div>
+    </section>
+
+    <section class="section offer-products" aria-labelledby="product-title">
+      <div class="wrap center">
+        <h2 id="product-title">UM MUNDO DE BRINCADEIRAS<br>NA PONTA DOS DEDOS</h2>
+        <div class="product-stack">
+          <div class="main-product">
+            <div class="mini-product" aria-label="Prévia ilustrativa da capa do material">
+              <div class="paper pack-main"><div class="pack-title">+200<strong>CARDS DE<br>MASSINHA</strong></div><div class="pack-sub">BRINCADEIRAS PARA IMPRIMIR</div><div class="pack-stickers"><div class="sticker">🦁</div><div class="sticker">🌼</div><div class="sticker">🐢</div><div class="sticker">⭐</div><div class="sticker">🍎</div><div class="sticker">🌈</div></div><div class="pack-footer">CRIE • EXPLORE • APRENDA</div></div>
+            </div>
+            <span class="product-tag">PRODUTO PRINCIPAL</span>
+            <h3>Cards de Massinha — +200 Brincadeiras em PDF</h3>
+            <p>Uma coleção de cards ilustrados e prontos para imprimir, com diferentes ideias para transformar massinha em uma atividade cheia de criatividade, descobertas e diversão.</p>
+            <p>Tenha sempre uma nova brincadeira para oferecer ao seu filho, sem precisar passar horas procurando ideias na internet.</p>
+            <div class="strike">DE R$ 47,00</div>
+          </div>
+          <div class="bonuses">
+            <div class="bonus">
+              <div class="bonus-cover"><span>📵</span><b>7 DIAS<br>SEM TELAS</b></div>
+              <div style="text-align:left"><div class="free">🎁 BÔNUS Nº 1</div><h3>Desafio 7 Dias de Brincadeiras Sem Tela</h3><p>Uma atividade diferente por dia para incentivar momentos de diversão longe do celular.</p><span class="free">INCLUSO GRÁTIS</span></div>
+            </div>
+            <div class="bonus">
+              <div class="bonus-cover"><span>🧩</span><b>FORMAS<br>CRIATIVAS</b></div>
+              <div style="text-align:left"><div class="free">🎁 BÔNUS Nº 2</div><h3>Kit de Formas e Moldes Criativos</h3><p>Modelos complementares para imprimir e explorar novas formas e figuras usando massinha.</p><span class="free">INCLUSO GRÁTIS</span></div>
+            </div>
+            <div class="bonus">
+              <div class="bonus-cover"><span>📅</span><b>MINHA<br>ROTINA</b></div>
+              <div style="text-align:left"><div class="free">🎁 BÔNUS Nº 3</div><h3>Quadro de Rotina Infantil</h3><p>Um quadro visual para organizar os momentos de brincar, aprender, descansar e usar telas.</p><span class="free">INCLUSO GRÁTIS</span></div>
+            </div>
+          </div>
+          <div class="products-foot">
+            <p class="product-summary">HOJE VOCÊ RECEBE OS +200 CARDS DE MASSINHA + OS 3 BÔNUS POR APENAS R$ 14,90</p>
+            <a class="cta" href="#preco">QUERO GARANTIR OS CARDS + 3 BÔNUS</a>
+            <div class="secure" style="margin-top:15px">⚡ Acesso imediato &nbsp;•&nbsp; ⏰ Oferta especial por tempo limitado</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="guarantee" aria-labelledby="guarantee-title">
+      <div class="wrap">
+        <div class="guarantee-card">
+          <div class="shield" aria-hidden="true"><svg viewBox="0 0 64 72" fill="none"><path d="M32 3 56 12v19c0 17-10 28-24 37C18 59 8 48 8 31V12L32 3Z" fill="#0F83DF"/><path d="M32 11 49 18v14c0 12-7 21-17 28-10-7-17-16-17-28V18l17-7Z" fill="#43BCFF"/><path d="m22 34 7 7 14-16" stroke="#fff" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/></svg></div>
+          <h2 id="guarantee-title">VOCÊ TEM 7 DIAS PARA TESTAR</h2>
+          <p>Você pode acessar os materiais e conhecer as brincadeiras com tranquilidade. Se por qualquer motivo decidir que os Cards de Massinha não são para sua família, basta solicitar o reembolso dentro de 7 dias.</p>
+          <p><strong>Você recebe 100% do seu dinheiro de volta.</strong></p>
+        </div>
+      </div>
+    </section>
+
+    <section class="pricing" id="preco" aria-labelledby="price-title">
+      <div class="wrap">
+        <div class="pricing-intro">
+          <h2 id="price-title">SEU FILHO NÃO PRECISA DE MAIS TEMPO DE TELA. PRECISA DE NOVAS FORMAS DE BRINCAR.</h2>
+          <p>Transforme uma simples massinha em um universo de criatividade, descobertas e diversão. Tenha +200 ideias prontas para imprimir, além de 3 materiais bônus.</p>
+        </div>
+        <div class="pay-box">
+          <div class="offer-ribbon">🎁 OFERTA ESPECIAL • 3 BÔNUS INCLUSOS</div>
+          <p class="old-price">De R$ 47,00</p>
+          <p class="only">por apenas</p>
+          <div class="new-price">R$ 14,90</div>
+          <div class="discount">68% DE DESCONTO</div>
+          <p class="save">Você economiza R$ 32,10 hoje.</p>
+          <p class="payment-line">À vista no PIX ou cartão.</p>
+          <div class="value-box">POR MENOS DE R$ 15, TENHA +200 IDEIAS PARA TROCAR O TEMPO DE TELA POR MOMENTOS DE CRIATIVIDADE.</div>
+          <ul class="checklist">
+            <li>+200 Cards de Massinha prontos para imprimir</li>
+            <li>Brincadeiras criativas e ilustradas</li>
+            <li>Atividades para estimular a imaginação</li>
+            <li>Desafios de coordenação motora fina</li>
+            <li>Cores, formas, letras e números</li>
+            <li>Atividades de atenção e concentração</li>
+            <li>Desafios de raciocínio lógico</li>
+            <li>Animais, personagens e figuras divertidas</li>
+            <li>Novas ideias para brincar em casa</li>
+            <li>Arquivos digitais em PDF e acesso imediato</li>
+            <li class="bonus-item">🎁 Desafio 7 Dias de Brincadeiras Sem Tela</li>
+            <li class="bonus-item">🎁 Kit de Formas e Moldes Criativos</li>
+            <li class="bonus-item">🎁 Quadro de Rotina Infantil</li>
+          </ul>
+          <a class="cta" id="buy-button" href="#preco" data-checkout>QUERO TROCAR AS TELAS POR BRINCADEIRAS <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14m-6-6 6 6-6 6"/></svg></a>
+          <div class="checkout-message" id="checkout-message" role="status">O link de pagamento ainda não foi configurado nesta página.</div>
+          <div class="payment-icons">PIX &nbsp;•&nbsp; VISA &nbsp;•&nbsp; MASTER &nbsp;•&nbsp; ELO</div>
+          <div class="pay-security">🔒 Compra segura e criptografada &nbsp;•&nbsp; ⚡ Acesso imediato<br>🛡️ Garantia de 7 dias</div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section faq" aria-labelledby="faq-title">
+      <div class="wrap center">
+        <h2 id="faq-title">Perguntas Frequentes</h2>
+        <div class="faq-list" style="text-align:left">
+          <details><summary>Para qual idade são indicados os Cards de Massinha?</summary><div class="faq-answer"><p>As atividades podem ser escolhidas de acordo com a idade e as habilidades da criança, sempre com a supervisão adequada de um adulto.</p></div></details>
+          <details><summary>Preciso comprar alguma massinha especial?</summary><div class="faq-answer"><p>Não. Você pode utilizar massinhas infantis comuns, adequadas à idade da criança. O material digital não inclui a massinha física.</p></div></details>
+          <details><summary>Os Cards de Massinha ajudam a diminuir o tempo de tela?</summary><div class="faq-answer"><p>Eles oferecem alternativas divertidas para os momentos em que você deseja incentivar brincadeiras longe do celular. Os resultados dependem da rotina e do interesse de cada criança.</p></div></details>
+          <details><summary>Preciso imprimir todos os cards de uma vez?</summary><div class="faq-answer"><p>Não! Você pode escolher e imprimir somente as atividades que deseja utilizar naquele momento.</p></div></details>
+          <details><summary>As atividades ajudam no desenvolvimento infantil?</summary><div class="faq-answer"><p>As brincadeiras incentivam a criatividade, a coordenação motora fina, a percepção visual e outras habilidades por meio de experiências lúdicas.</p></div></details>
+          <details><summary>Como recebo o acesso?</summary><div class="faq-answer"><p>Após a confirmação do pagamento, você recebe acesso ao material digital para baixar e imprimir.</p></div></details>
+          <details><summary>Preciso pagar mensalidade?</summary><div class="faq-answer"><p>Não! Você faz um único pagamento e recebe acesso ao material adquirido, sem mensalidades.</p></div></details>
+        </div>
+      </div>
+    </section>
+  </main>
+  <footer><div class="brand-footer">🎨 Cards de Massinha</div><p>Mais criatividade, mais descobertas e mais momentos para brincar.</p><p>© 2026 — Todos os direitos reservados.</p></footer>
+  <div class="mobile-bar"><a href="#preco">QUERO OS CARDS DE MASSINHA <b>• R$ 14,90</b></a></div>
+  <script>
+    // Insira a URL real do checkout aqui antes de publicar a campanha.
+    var CHECKOUT_URL = '';
+    var checkoutButton = document.querySelector('[data-checkout]');
+    if (CHECKOUT_URL && /^https?:\/\//.test(CHECKOUT_URL)) {
+      checkoutButton.href = CHECKOUT_URL;
+    } else {
+      checkoutButton.addEventListener('click', function (event) {
+        event.preventDefault();
+        document.getElementById('checkout-message').classList.add('show');
+      });
+    }
+  </script>
+</body>
+</html>
